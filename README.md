@@ -36,6 +36,9 @@ A Colorado Board of Elections employee has given you the following tasks to comp
 - Which candidate won the election, what was their vote count, and what was their percentage of the total votes?
  
     - Diana DeGette, who recieved "73.8%" of the vote and "272,892" number of votes.
+    
+## Election-Audit Summary:
+
 
   
 
