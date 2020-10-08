@@ -2,13 +2,16 @@
 
 ## Overview of Election Audit
 
-A Colorado Board of Elections employee has given you the following tasks to complete the election audit of a recent local congressional election.
+A Colorado Board of Elections employee has given me the following tasks to complete the election audit of a recent local congressional election.
 
 1. Calculate the total number of vote cast.
 2. Get a complete list of candidates who recieved votes.
 3. Calculate the total number of votes each candidate won.
 4. Calculate the percentage of votes each candidate won.
-5. Determine the winner of the election based on popular votes.
+5. Determine the county with the largest turnout.
+6. Calculate the total number of votes for each county.
+7. Calculate the percentage of votes for each county.
+8. Determine the winner of the election based on popular votes.
 
 ## Resources
 - Data source: election_results.csv
@@ -18,11 +21,14 @@ A Colorado Board of Elections employee has given you the following tasks to comp
 
  - How many votes were cast in this congressional election?
  
-     - There were "369,711" vote cast in the election.
+     - There were "369,711" vote cast in this election.
  
  - Provide a breakdown of the number of votes and the percentage of total votes for each county in the precinct.
  
-   -
+    - Jefferson had "10.5%" of the votes and "38,855" number of votes.
+    - Denver had "82.8%" of the votes and "306,055" number of votes.
+    - Arapahoe had "6.7%" of the votes and "24,801 number of votes.
+    
 - Which county had the largest number of votes?
  
     - Denver had the largest number of votes.
