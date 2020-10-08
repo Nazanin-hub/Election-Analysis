@@ -15,7 +15,7 @@ A Colorado Board of Elections employee has given me the following tasks to compl
 
 ## Resources
 - Data source: election_results.csv
-- Software: Python 3.7.6, Visual Studio Code,1.38.1
+- Software: Python 3.8.3, Visual Studio Code,1.38.1
 
 ## Election-Audit Results:
 
