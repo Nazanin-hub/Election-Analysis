@@ -100,12 +100,12 @@ A Colorado Board of Elections employee has given me the following tasks to compl
           Add a vote to that state's vote count.
           state_votes[state_name] += 1
         
-        Write a repetition statement to get the state from the state dictionary.
-        for state_name in state_votes:
-          Retrieve the county vote count.
-          votes = state_votes[state_name]
-          Calculate the percent of total votes for the state.
-          vote_percentage = float(votes) / float(total_votes) * 100
+          write a repetition statement to get the state from the state dictionary.
+          for state_name in state_votes:
+            Retrieve the county vote count.
+            votes = state_votes[state_name]
+            Calculate the percent of total votes for the state.
+            vote_percentage = float(votes) / float(total_votes) * 100
 
           Print the state results to the terminal.
           state_results = (f"{state_name}: {vote_percentage:.1f}% ({votes:,})\n")
