@@ -81,14 +81,14 @@ A Colorado Board of Elections employee has given me the following tasks to compl
     - considering the gender of voters.
    Forexample, if we want to consider all states, some codes should be added to the previous one as below:
    
-        Create a county list and county votes dictionary.
-        state_options =[]
-        state_votes ={}
+          Create a county list and county votes dictionary.
+          state_options =[]
+          state_votes ={}
         
-         Write a decision statement that checks that the
-         state does not match any existing state in the state list.
+          Write a decision statement that checks that the
+          state does not match any existing state in the state list.
         
-        if state_name not in state_options:
+          if state_name not in state_options:
 
             Add the existing state to the list of states.
             state_options.append(state_name)
@@ -97,19 +97,19 @@ A Colorado Board of Elections employee has given me the following tasks to compl
 
             state_votes[state_name] = 0
             
-         Add a vote to that state's vote count.
-        state_votes[state_name] += 1
+          Add a vote to that state's vote count.
+          state_votes[state_name] += 1
         
         Write a repetition statement to get the state from the state dictionary.
-       for state_name in state_votes:
+        for state_name in state_votes:
           Retrieve the county vote count.
-         votes = state_votes[state_name]
+          votes = state_votes[state_name]
           Calculate the percent of total votes for the state.
-         vote_percentage = float(votes) / float(total_votes) * 100
+          vote_percentage = float(votes) / float(total_votes) * 100
 
           Print the state results to the terminal.
-         state_results = (f"{state_name}: {vote_percentage:.1f}% ({votes:,})\n")
-        
-        print(state_results)
+          state_results = (f"{state_name}: {vote_percentage:.1f}% ({votes:,})\n")
+         
+          print(state_results)
   
 
