@@ -63,9 +63,8 @@ A Colorado Board of Elections employee has given me the following tasks to compl
     
 ## Election-Audit Summary:
 
-- This Python coding can be used for any type of election.
-- This Python coding can be replaced with all primary voting methods that takes a long time to be counted.
-- A given data excel file just had three coulmns: 1.Ballot ID 2.County 3.Candidate. With this brief data, I could calculate the following data:
+- I have developed a very fast, totally accurate, high cost effective script to analyze election results called "Elecsys". "Elecsys" can be used to process any election results   only by providing a simple excel of the votes.  Thus "Elecsys" can replace all traditional voting techniques that take a long time to count votes and usally suffers high error   rates. "Elecsys" is capable of providing you with various statistics based on the dataset of votes. For instace, given a data excel file with just three columns: Ballot ID,     County and Candidate, "Elecsys" will provide you with the following statistics:
+
     - The total number of votes cast.
     - The voter turnout for each county.
     - The percentage of votes from each county out of the total count.
@@ -79,7 +78,7 @@ A Colorado Board of Elections employee has given me the following tasks to compl
     - Considering all states to get election result for whole country.
     - Considering the age of voters.
     - considering the gender of voters.
-   Forexample, if we want to consider all states, some codes should be added to the previous one as below:
+   Forexample, if I want to consider all states, some codes should be added to the previous one as below:
    
           Create a county list and county votes dictionary.
           state_options =[]
@@ -113,4 +112,4 @@ A Colorado Board of Elections employee has given me the following tasks to compl
           print(state_results)
   
 
-k
+
