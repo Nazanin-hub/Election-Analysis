@@ -99,7 +99,7 @@ A Colorado Board of Elections employee has given me the following tasks to compl
           e)Add a vote to that state's vote count.
           state_votes[state_name] += 1
         
-         f)write a repetition statement to get the state from the state dictionary.
+          f)write a repetition statement to get the state from the state dictionary.
           for state_name in state_votes:
             g)Retrieve the state vote count.
             votes = state_votes[state_name]
