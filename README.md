@@ -15,7 +15,7 @@ A Colorado Board of Elections employee has given me the following tasks to compl
 
 ## Resources
 - Data source: election_results.csv
-- Software: Python 3.8.3, Visual Studio Code,1.38.1
+- Software: Python 3.8.3, Visual Studio Code 16.7.4
 
 ## Election-Audit Results:
 
@@ -35,13 +35,13 @@ A Colorado Board of Elections employee has given me the following tasks to compl
 
 - Provide a breakdown of the number of votes and the percentage of the total votes each candidate received.
 
-    - Charles Casper Stockham recieved "23.0%" of the vote and "85,213" number of votes.
-    - Diana DeGette recieved "73.8%" of the vote and "272,892" number of votes.
-    - Raymon Anthony Doane recieved "3.1%" of the vote and "11,606" number of votes.
+    - Charles Casper Stockham recieved "23.0%" of the votes and "85,213" number of votes.
+    - Diana DeGette recieved "73.8%" of the votes and "272,892" number of votes.
+    - Raymon Anthony Doane recieved "3.1%" of the votes and "11,606" number of votes.
 
 - Which candidate won the election, what was their vote count, and what was their percentage of the total votes?
  
-    - Diana DeGette, who recieved "73.8%" of the vote and "272,892" number of votes.
+    - Diana DeGette, who recieved "73.8%" of the votes and "272,892" number of votes.
     
 #### Sample of my coding result 
 
@@ -80,33 +80,33 @@ A Colorado Board of Elections employee has given me the following tasks to compl
     - considering the gender of voters.
    Forexample, if I want to consider all states, some codes should be added to the previous one as below:
    
-          Create a county list and county votes dictionary.
+          a)Create a state list and state votes dictionary.
           state_options =[]
           state_votes ={}
         
-          Write a decision statement that checks that the
+          b)Write a decision statement that checks that the
           state does not match any existing state in the state list.
         
           if state_name not in state_options:
 
-            Add the existing state to the list of states.
+            c)Add the existing state to the list of states.
             state_options.append(state_name)
 
-            Begin tracking the state's vote count.
+            d)Begin tracking the state's vote count.
 
             state_votes[state_name] = 0
             
-          Add a vote to that state's vote count.
+          e)Add a vote to that state's vote count.
           state_votes[state_name] += 1
         
-          write a repetition statement to get the state from the state dictionary.
+         f) write a repetition statement to get the state from the state dictionary.
           for state_name in state_votes:
-            Retrieve the county vote count.
+            g)Retrieve the state vote count.
             votes = state_votes[state_name]
-            Calculate the percent of total votes for the state.
+            h)Calculate the percent of total votes for the state.
             vote_percentage = float(votes) / float(total_votes) * 100
 
-          Print the state results to the terminal.
+          i)Print the state results to the terminal.
           state_results = (f"{state_name}: {vote_percentage:.1f}% ({votes:,})\n")
          
           print(state_results)
