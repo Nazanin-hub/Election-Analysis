@@ -43,7 +43,7 @@ A Colorado Board of Elections employee has given me the following tasks to compl
  
     - Diana DeGette, who recieved "73.8%" of the votes and "272,892" number of votes.
     
-#### Results of coding:
+#### Visual Studio Code Result:
 
                 County Votes:
                 Jefferson: 10.5% (38,855)
