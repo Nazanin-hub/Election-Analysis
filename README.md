@@ -43,7 +43,8 @@ A Colorado Board of Elections employee has given me the following tasks to compl
  
     - Diana DeGette, who recieved "73.8%" of the vote and "272,892" number of votes.
     
-#### Resultes 
+#### Sample of my coding result 
+
                 County Votes:
                 Jefferson: 10.5% (38,855)
                 Denver: 82.8% (306,055)
@@ -62,6 +63,19 @@ A Colorado Board of Elections employee has given me the following tasks to compl
     
 ## Election-Audit Summary:
 
-
+- This Python coding can be used for any type of election.
+- This Python coding can be replaced with all primary voting methods that takes a long time to be counted.
+- A given data excel file just had three coulmns: 1.Ballot ID 2.County 3.Candidate. With this brief data, I could calculate the following data:
+    - The total number of votes cast.
+    - The voter turnout for each county.
+    - The percentage of votes from each county out of the total count.
+    - The total number of votes each candidate won.
+    - The percentage of votes each candidate won.
+    - The county with the highest turnout.
+    - Determine the winner of the election based on popular votes.
+       
+ - Modification:
+ 
+    - 
   
 
